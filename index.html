@@ -71,7 +71,7 @@
 async function getMood() {
   const getMoodPromise = MoodContract.getMood();
   const Mood = await getMoodPromise;
-  window.alert(Mood);
+  window.alert("You are" + ' ' + Mood);
   console.log(Mood);
 }
 
